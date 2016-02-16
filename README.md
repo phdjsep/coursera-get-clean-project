@@ -14,7 +14,7 @@ The purpose of this project is to demonstrate my ability to collect, work with, 
 
 ### Execution and files
 
-**The Data Set is not included in the repository because it's larger that what Github recommends.** Instead, execution of the run_analysis.R script will create 'data' directory, and then download and extract that dataset into teh 'data' directory. The script will continue to process the dataset and create a tidy 'average_data.csv' file as per the requirements.
+**The Data Set is not included in the repository because it's larger than what Github recommends.** Instead, execution of the run_analysis.R script will create 'data' directory, and then download and extract that dataset into teh 'data' directory. The script will continue to process the dataset and create a tidy 'average_data.csv' file as per the requirements.
 
 The `CodeBook.md` describes the variables, the data, and the work that has been performed to clean up the data.
 
