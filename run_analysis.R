@@ -95,4 +95,4 @@ all_meanOrStd <- cbind(all_merged[, 1:3], all_meanOrStd)
 # Get mean of each variable by subject and activity
 ########################################################
 averages_data <- ddply(all_meanOrStd, .(subject_id, activity), numcolwise(mean))
-write.table(averages_data,file="averages_data.csv",sep=",",col.names = NA)
+write.table(averages_data,file="averages_data.csv",sep=",", row.names = FALSE)
